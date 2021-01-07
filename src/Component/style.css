@@ -1,0 +1,147 @@
+.nav-bar {
+  display: flex;
+  border: 0.05px solid blue;
+}
+
+.left-nav {
+  display: flex;
+}
+
+.right-nav {
+  display: flex;
+}
+
+.center-space {
+  display: flex;
+  width: 320px;
+}
+.top-title {
+  background-color: lightsteelblue;
+  color: blue;
+  border: 0.05px solid blue;
+  padding: 10px;
+  text-align: center;
+}
+
+.most-Liked {
+  color: rgb(39, 111, 170);
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.most-commented {
+  color: rgb(39, 111, 170);
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.horzontal-line {
+  border: 0.05px solid black;
+  width: 0.05px;
+  height: 30px;
+  margin: 4px;
+}
+
+.search-box {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 350px;
+  align-items: center;
+  display: flex;
+  justify-content: initial;
+  margin: 5px;
+  width: 250px;
+}
+.card-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.card-container {
+  margin-right: 5%;
+  width: 250px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 5%;
+  border: 1px solid slategray;
+  box-shadow: 5px 5px 8px #fff;
+}
+
+.card-img {
+  width: 250px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.like-unlike-bar {
+  font-size: 16px;
+  color: steelblue;
+  padding: 5px;
+  border: 0.05px solid steelblue;
+}
+
+.post-comments {
+  font-size: 16px;
+  color: steelblue;
+  border: 0.05px solid steelblue;
+}
+
+.individual-comment {
+  border: 1px solid steelblue;
+  background-color: cadetblue;
+  padding: 5px;
+}
+
+.input-comment {
+  width: 75%;
+  border: none;
+}
+
+.btn-post {
+  float: right;
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.like-link {
+  color: steelblue;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.extended-img {
+  position: relative;
+  width: 550px;
+  height: 550px;
+  align-content: center;
+  background: lightgray;
+}
+
+.close-extended-img {
+  position: absolute;
+  top: 10px;
+  right: 78px;
+}
+
+.del-btn {
+  float: right;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.abc {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  background: #484141d9;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
